@@ -17,7 +17,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "DianDev\\LaratrustPanel\\LaratrustPanelServiceProvider"
+                "Abumaryam\\LaratrustCustpanel\\LaratrustCustpanelServiceProvider"
             ]
         }
     },
