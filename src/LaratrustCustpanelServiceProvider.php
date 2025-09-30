@@ -1,5 +1,3 @@
-LaratrustCustpanelServiceProvider
-
 <?php
 
 namespace Abumaryam\LaratrustCustpanel;
