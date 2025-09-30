@@ -1,0 +1,25 @@
+{
+    "name": "abumaryam/laratrust-custpanel",
+    "description": "Laratrust Custom Panel with FluxUI",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Abumaryam\\LaratrustCustpanel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "abumaryam",
+            "email": "wiradianxiv@mti.gadjahmada.edu"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DianDev\\LaratrustPanel\\LaratrustPanelServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
