@@ -12,8 +12,11 @@ class LaratrustCustpanelServiceProvider extends ServiceProvider
         $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
 
         // Memberitahu Laravel untuk me-load view dari paket kita
-        // dan memberinya namespace 'laratrust-panel'
-        $this->loadViewsFrom(__DIR__.'/../resources/views', 'laratrust-panel');
+        // dan memberinya namespace 'laratrust-custpanel'
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'laratrust-custpanel');
+        $this->publishes([
+            __DIR__.'/../resources/views' => resource_path('views/vendor/laratrust-custpanel'),
+        ], 'laratrust-panel-views');
     }
 
     public function register()
